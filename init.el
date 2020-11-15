@@ -172,13 +172,11 @@
 ;; Highlight matching parentheses
 (require 'paren)
 (show-paren-mode 1)
-(setq show-paren-delay 1)
+(setq show-paren-delay 0)
 (set-face-background 'show-paren-match (face-background 'default))
 (if (eq (frame-parameter nil 'background-mode) 'dark)
-    (set-face-foreground 'show-paren-match "red")
+    (set-face-foreground 'show-paren-match "VioletRed1")
   (set-face-foreground 'show-paren-match "black"))
-(set-face-attribute 'show-paren-match nil :weight 'extra-bold)
-
 
 ;; Add ability to shift between buffers using shift+arrow keys.
 (when (fboundp 'windmove-default-keybindings)

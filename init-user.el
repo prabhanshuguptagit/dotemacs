@@ -78,7 +78,7 @@
   :config
   (setq doom-themes-enable-bold t
         doom-themes-enable-italic t)
-  (load-theme 'doom-challenger-deep))
+  (load-theme 'misterioso))
 (use-package abyss-theme :disabled t)
 (use-package gruvbox-theme :disabled t)
 (use-package github-theme :disabled t)
@@ -302,10 +302,6 @@
   (require 'dockerfile-mode)
   (add-to-list 'auto-mode-alist '("Dockerfile\\'" . dockerfile-mode)))
 
-(use-package golden-ratio
-  :diminish golden-ratio-mode
-  :init
-  (golden-ratio-mode 1))
 
 (use-package dired-sidebar
   :commands (dired-sidebar-toggle-sidebar)
