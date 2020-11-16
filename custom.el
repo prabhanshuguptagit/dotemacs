@@ -63,6 +63,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(fringe ((t (:background "#1E1C31"))))
+ '(font-lock-function-name-face ((t (:foreground "#00ede1" :weight normal))))
  '(mode-line ((t (:foreground "#eeeeec" :background "unemphasizedSelectedContentBackgroundColor"))))
  '(mode-line-inactive ((t (:foreground "LightGoldenrod3" :background "#212931"))))
  '(rainbow-delimiters-base-error-face ((t (:inherit rainbow-delimiters-base-face :foreground "tomato3"))))
