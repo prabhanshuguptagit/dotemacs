@@ -338,7 +338,12 @@
 (global-set-key (kbd "<f6>") 'kg/show-user-config)
 (global-set-key (kbd "s-w") 'kill-this-buffer)
 (global-set-key (kbd "<s-S-return>") 'kg/toggle-maximize-buffer)
-
+(global-set-key (kbd "C-c y") 'clipboard-yank)
+(global-set-key (kbd "C-c s v") 'org-table-export)
 
 ;; === ============ ADD THEME FOLDER =========================
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+
+;; == ORG MODE THINGS ====
+(setq initial-major-mode 'org-mode)
+(setq org-global-properties '(("TABLE_EXPORT_FORMAT". "orgtbl-to-csv")))
