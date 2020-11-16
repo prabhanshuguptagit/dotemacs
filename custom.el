@@ -66,7 +66,7 @@
  '(mode-line ((t (:foreground "#eeeeec" :background "unemphasizedSelectedContentBackgroundColor"))))
  '(mode-line-inactive ((t (:foreground "LightGoldenrod3" :background "#212931"))))
  '(rainbow-delimiters-base-error-face ((t (:inherit rainbow-delimiters-base-face :foreground "tomato3"))))
- '(rainbow-delimiters-depth-1-face ((t (:inherit rainbow-delimiters-base-face :foreground "LightPink1"))))
+ '(rainbow-delimiters-depth-1-face ((t (:inherit rainbow-delimiters-base-face :foreground "LightPink2"))))
  '(rainbow-delimiters-depth-2-face ((t (:inherit rainbow-delimiters-base-face :foreground "DeepSkyBlue1"))))
  '(rainbow-delimiters-depth-3-face ((t (:inherit rainbow-delimiters-base-face :foreground "DarkSeaGreen3"))))
  '(rainbow-delimiters-depth-4-face ((t (:inherit rainbow-delimiters-base-face :foreground "NavajoWhite3"))))
