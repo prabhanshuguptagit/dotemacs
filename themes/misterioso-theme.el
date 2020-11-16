@@ -1,5 +1,5 @@
 (deftheme misterioso
-  "Created 2020-11-15.")
+  "Created 2020-11-16.")
 
 (custom-theme-set-variables
  'misterioso
@@ -20,8 +20,8 @@
  '(minibuffer-prompt ((((class color) (min-colors 89)) (:foreground "#729fcf" :weight bold))))
  '(font-lock-builtin-face ((((class color) (min-colors 89)) (:foreground "#23d7d7"))))
  '(font-lock-comment-face ((((class color) (min-colors 89)) (:foreground "#74af68"))))
- '(font-lock-constant-face ((((class color) (min-colors 89)) (:foreground "#008b8b"))))
- '(font-lock-function-name-face ((t (:foreground "#00ede1" :weight bold))))
+ '(font-lock-constant-face ((t (:foreground "aquamarine3"))))
+ '(font-lock-function-name-face ((t (:foreground "#00ede1" :weight normal))))
  '(font-lock-keyword-face ((t (:foreground "#ffad29" :weight bold))))
  '(font-lock-string-face ((t (:foreground "#e67128"))))
  '(font-lock-type-face ((t (:foreground "#34cae2"))))
