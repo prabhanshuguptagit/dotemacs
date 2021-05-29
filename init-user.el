@@ -347,3 +347,6 @@
 ;; == ORG MODE THINGS ====
 (setq initial-major-mode 'org-mode)
 (setq org-global-properties '(("TABLE_EXPORT_FORMAT". "orgtbl-to-csv")))
+
+(set-face-attribute 'hl-line nil :inherit nil)
+(global-hl-line-mode 1)

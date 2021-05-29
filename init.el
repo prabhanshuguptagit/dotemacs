@@ -282,6 +282,8 @@
   :config
   (setq magit-set-upstream-on-push 'askifnotset))
 
+(use-package forge
+  :after magit)
 
 ;; User customizations
 ;; Add your customizations to `init-user.el`

@@ -5,23 +5,22 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
- '(compilation-message-face (quote default))
+ '(compilation-message-face 'default)
  '(custom-enabled-themes nil)
  '(custom-safe-themes
-   (quote
-    ("c258597f79be60a769593787e793cdb3c167b25f964bd5b674765e744fe2fe43" "43fbc1b60039e48c164504150dc7eb43e7b0f08eca937d085445c8c9e65511a5" "52e1a65b415f1c91c9d6878f03cd8df07b263e910c461dd943dd8992d66fb71e" "5f3ff890e50ad033576c34219b1742624d73f1dd6678d88cf0774d55623d252d" "a8e8896c6351830e01d8b2c60d35510e5b06234f2bcd4618de8ae935e140339c" "70abdcf2b070205b18578849649c67f5e10c90ba5ebee6b7a53377495e5e40c3" "1ba61848d0d8c78e037867c26f118875705c20f5ad64949a8cee8c8059e5c50f" "837f2d1e6038d05f29bbcc0dc39dbbc51e5c9a079e8ecd3b6ef09fc0b149ceb1" "887892a6af3bc2970861973e06392f93df60cfdcc2cd822363bc3de89d48f884" "a25eec3e8b0179651d7035f011a317a390c96e103ac3da9e2483e0a8a0ea37c0" "d71aabbbd692b54b6263bfe016607f93553ea214bc1435d17de98894a5c3a086" "632694fd8a835e85bcc8b7bb5c1df1a0164689bc6009864faed38a9142b97057" "f1213e5b36cbf959a21653d31036b27946839b4e9c9588cc0c0399cb7d4befbd" "82a0887074fe2dd63d505f9a05fdd7033757155dc2b072c617625da427ce6d1f" "c2d9faaf42a421209420aced12484a4d535da37e4dbcb3dd3083be60c8963e1f" "0ee1b68127855204c0e6c16f50be2f34f06c0f6dc4c1825d175eabe16055df16" "bb33b672c4af08eec77f5133f090de610e2373fae81ab4aac762b25afd8b4a29" "97b06ee732f21a79e162c69c49f67562f5039a0a186dba0d44c97bd7ba154c3a" "3577ee091e1d318c49889574a31175970472f6f182a9789f1a3e9e4513641d86" default)))
+   '("c258597f79be60a769593787e793cdb3c167b25f964bd5b674765e744fe2fe43" "43fbc1b60039e48c164504150dc7eb43e7b0f08eca937d085445c8c9e65511a5" "52e1a65b415f1c91c9d6878f03cd8df07b263e910c461dd943dd8992d66fb71e" "5f3ff890e50ad033576c34219b1742624d73f1dd6678d88cf0774d55623d252d" "a8e8896c6351830e01d8b2c60d35510e5b06234f2bcd4618de8ae935e140339c" "70abdcf2b070205b18578849649c67f5e10c90ba5ebee6b7a53377495e5e40c3" "1ba61848d0d8c78e037867c26f118875705c20f5ad64949a8cee8c8059e5c50f" "837f2d1e6038d05f29bbcc0dc39dbbc51e5c9a079e8ecd3b6ef09fc0b149ceb1" "887892a6af3bc2970861973e06392f93df60cfdcc2cd822363bc3de89d48f884" "a25eec3e8b0179651d7035f011a317a390c96e103ac3da9e2483e0a8a0ea37c0" "d71aabbbd692b54b6263bfe016607f93553ea214bc1435d17de98894a5c3a086" "632694fd8a835e85bcc8b7bb5c1df1a0164689bc6009864faed38a9142b97057" "f1213e5b36cbf959a21653d31036b27946839b4e9c9588cc0c0399cb7d4befbd" "82a0887074fe2dd63d505f9a05fdd7033757155dc2b072c617625da427ce6d1f" "c2d9faaf42a421209420aced12484a4d535da37e4dbcb3dd3083be60c8963e1f" "0ee1b68127855204c0e6c16f50be2f34f06c0f6dc4c1825d175eabe16055df16" "bb33b672c4af08eec77f5133f090de610e2373fae81ab4aac762b25afd8b4a29" "97b06ee732f21a79e162c69c49f67562f5039a0a186dba0d44c97bd7ba154c3a" "3577ee091e1d318c49889574a31175970472f6f182a9789f1a3e9e4513641d86" default))
  '(fci-rule-color "#858FA5")
- '(highlight-changes-colors (quote ("#FD5FF0" "#AE81FF")))
+ '(highlight-changes-colors '("#FD5FF0" "#AE81FF"))
  '(highlight-tail-colors
-   (quote
-    (("#3C3D37" . 0)
+   '(("#3C3D37" . 0)
      ("#679A01" . 20)
      ("#4BBEAE" . 30)
      ("#1DB4D0" . 50)
      ("#9A8F21" . 60)
      ("#A75B00" . 70)
      ("#F309DF" . 85)
-     ("#3C3D37" . 100))))
+     ("#3C3D37" . 100)))
+ '(ispell-highlight-face 'flyspell-incorrect)
  '(jdee-db-active-breakpoint-face-colors (cons "#100E23" "#906CFF"))
  '(jdee-db-requested-breakpoint-face-colors (cons "#100E23" "#95FFA4"))
  '(jdee-db-spec-breakpoint-face-colors (cons "#100E23" "#565575"))
@@ -55,15 +54,15 @@
     (cons 360 "#858FA5")))
  '(vc-annotate-very-old-color nil)
  '(weechat-color-list
-   (quote
-    (unspecified "#272822" "#3C3D37" "#F70057" "#F92672" "#86C30D" "#A6E22E" "#BEB244" "#E6DB74" "#40CAE4" "#66D9EF" "#FB35EA" "#FD5FF0" "#74DBCD" "#A1EFE4" "#F8F8F2" "#F8F8F0"))))
+   '(unspecified "#272822" "#3C3D37" "#F70057" "#F92672" "#86C30D" "#A6E22E" "#BEB244" "#E6DB74" "#40CAE4" "#66D9EF" "#FB35EA" "#FD5FF0" "#74DBCD" "#A1EFE4" "#F8F8F2" "#F8F8F0")))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(fringe ((t (:background "#1E1C31"))))
  '(font-lock-function-name-face ((t (:foreground "#00ede1" :weight normal))))
+ '(fringe ((t (:background "#1E1C31"))))
+ '(highlight ((t (:background "#243138"))))
  '(mode-line ((t (:foreground "#eeeeec" :background "unemphasizedSelectedContentBackgroundColor"))))
  '(mode-line-inactive ((t (:foreground "LightGoldenrod3" :background "#212931"))))
  '(rainbow-delimiters-base-error-face ((t (:inherit rainbow-delimiters-base-face :foreground "tomato3"))))
